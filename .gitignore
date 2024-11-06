@@ -15,3 +15,13 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Ignore OS files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Ignore .env files with sensitive info
+.env
